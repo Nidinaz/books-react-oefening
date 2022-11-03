@@ -45,7 +45,50 @@ const Book = (props) => {
   console.log(props);
   return (
     <div>
-      <p>{props.book.ISBN}</p>
+      <table>
+        <thead>
+          <th colspan='2'></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ISBN</td>
+            <td>{props.book.ISBN}</td>
+          </tr>
+          <tr>
+            <td>Title</td>
+            <td>{props.book.Title}</td>
+          </tr>
+          <tr>
+            <td>Publishing year</td>
+            <td>{props.book.Publishingyear}</td>
+          </tr>
+          <tr>
+            <td>First published</td>
+            <td>{props.book.FirstPublished}</td>
+          </tr>
+          <tr>
+            <td>Genre</td>
+            <td>{props.book.Genre}</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>{props.book.Language}</td>
+          </tr>
+          <tr>
+            <td>original Language</td>
+            <td>{props.book.originalLanguage}</td>
+          </tr>
+          <tr>
+            <td>Publisher</td>
+            <td>{props.book.Publisher}</td>
+          </tr>
+          <tr>
+            <td>Pages</td>
+            <td>{props.book.Pages}</td>
+          </tr>
+        </tbody>
+      </table>
+      {/* <p>{props.book.ISBN}</p>
       <p>{props.book.Title}</p>
       <p>{props.book.Author}</p>
       <p>{props.book.Publishingyear}</p>
@@ -54,7 +97,7 @@ const Book = (props) => {
       <p>{props.book.Language}</p>
       <p>{props.book.originalLanguage}</p>
       <p>{props.book.Publisher}</p>
-      <p>{props.book.Pages}</p>
+      <p>{props.book.Pages}</p> */}
     </div>
   );
 };
