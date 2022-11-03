@@ -63,7 +63,8 @@ const Book = (props) => {
         <div className="tableRow">
           <div className="tableCell">Genre</div>
           <div className="tableCell">{props.book.Genre}</div>
-          <div className="tableRow"></div>
+        </div>
+        <div className="tableRow">
           <div className="tableCell">Language</div>
           <div className="tableCell">{props.book.Language}</div>
         </div>

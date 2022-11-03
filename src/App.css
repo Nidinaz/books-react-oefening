@@ -2,7 +2,7 @@ body {
   font-family: 'Spectral', serif;
   background-color: #282c34;
   color: white;
-  padding: 40px;
+
 
 }
 h1 {
@@ -10,7 +10,22 @@ h1 {
   font-size: 42px;
 }
 
-td {
-  border-bottom: 1px solid rgb(110, 102, 102);
-  font-size: 20px;
+/* Div Table*/
+.divTable {
+	display: table;
+	width: 100%;
 }
+.divTableBody {
+	display: table-row-group;
+}
+.tableRow {
+	display: table-row;
+}
+
+.tableCell {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+
