@@ -2,6 +2,10 @@ body {
   font-family: 'Spectral', serif;
   background-color: #282c34;
   color: white;
+  margin-left: 40px;
+  margin-top: 60px;
+  width:100%;
+  text-align: center;
 
 
 }
@@ -14,6 +18,7 @@ h1 {
 .divTable {
 	display: table;
 	width: 100%;
+  padding:20px;
 }
 .divTableBody {
 	display: table-row-group;
@@ -23,9 +28,7 @@ h1 {
 }
 
 .tableCell {
-	border: 1px solid #999999;
+	border-bottom: 1px solid #999999;
 	display: table-cell;
 	padding: 3px 10px;
 }
-
-
